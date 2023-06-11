@@ -14,6 +14,25 @@ body {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+li span {
+  flex-grow: 1;
+  margin-right: 10px;
+  color: #800080;
+}
+
+li input[type='text'] {
+  width: 120px;
+  margin-right: 10px;
+  color: #ff0000;
+}
+
 h1 {
   text-align: center;
   color: #008000;
@@ -43,11 +62,10 @@ ul {
   padding: 0;
 }
 
-li {
+/* li {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
-  /* Increased spacing between list items */
 }
 
 li span {
@@ -65,4 +83,4 @@ li input[type='text'] {
 li button {
   background-color: #dc3545;
   color: #000;
-}
+} */
